@@ -27,6 +27,10 @@ class AnimalServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(Animal::class, Dog::class);
+        $this->app->bind('dog', function () {
+            return resolve(Animal::class);
+        });
+        
         $this->app->when(Dog::class)
             ->needs('$voice')
             ->give('bark');

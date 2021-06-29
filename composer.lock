@@ -1336,16 +1336,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "9be3b16c877d477357c015cec057548cf9b2a14a"
+                "reference": "f3ad69181b8afed2c9edf7be5a2918144ff4ea32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/9be3b16c877d477357c015cec057548cf9b2a14a",
-                "reference": "9be3b16c877d477357c015cec057548cf9b2a14a",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f3ad69181b8afed2c9edf7be5a2918144ff4ea32",
+                "reference": "f3ad69181b8afed2c9edf7be5a2918144ff4ea32",
                 "shasum": ""
             },
             "require": {
@@ -1361,7 +1361,6 @@
                 "phpunit/phpunit": "^8.5.8"
             },
             "suggest": {
-                "ext-fileinfo": "Required for MimeType",
                 "ext-ftp": "Allows you to use FTP server storage",
                 "ext-openssl": "Allows you to use FTPS server storage",
                 "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
@@ -1423,7 +1422,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2020-08-23T07:39:11+00:00"
+            "time": "2021-06-23T21:56:05+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -5286,12 +5285,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wudi/swoole-ide-helper.git",
-                "reference": "fc8fe156391960c75505dd1ef869f52d4e109dc6"
+                "reference": "70147a030c2dd5c1171bedae3a31970f3bf9c280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wudi/swoole-ide-helper/zipball/fc8fe156391960c75505dd1ef869f52d4e109dc6",
-                "reference": "fc8fe156391960c75505dd1ef869f52d4e109dc6",
+                "url": "https://api.github.com/repos/wudi/swoole-ide-helper/zipball/70147a030c2dd5c1171bedae3a31970f3bf9c280",
+                "reference": "70147a030c2dd5c1171bedae3a31970f3bf9c280",
                 "shasum": ""
             },
             "require": {
@@ -5321,7 +5320,7 @@
                 "sublime",
                 "swoole"
             ],
-            "time": "2020-11-28T15:34:08+00:00"
+            "time": "2021-06-02T17:13:45+00:00"
         },
         {
             "name": "filp/whoops",
